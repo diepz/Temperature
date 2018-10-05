@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bài tập</title>
+	<script type="text/javascript">
+	var enter = "<br>";
+	function myTemperature(c) {
+		this.c = 25;
+		this.getF  = getF;
+	function getF() {
+		return (9*this.c)/5 + 32;
+	}
+	this.getK = getK; 
+	function getK() {
+		return this.c + 273.15; 
+	}
+}
+var myObj = new myTemperature;
+document.write(myObj.getF() + enter);
+document.write(myObj.getK());
+</script>
+</head>
+<body>
+
+</body> 
+</html>
